@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #1f2937;
+    height: 80vh;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 10rem;
+}
+.container h2{
+    font-size: 2rem;
+    color: #f9faf8;
+    padding-top: 15px;
+}
+.container ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+}
+.container ul li{
+    margin: 20px;
+}
+.container a{
+    font-size: 1.6rem;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.hero-header img{
+    max-width: 50%;
+}
+.hero-header{
+    gap: 5rem;
+}
+.hero-header h1{
+    font-size: 5rem;
+    color: #f9faf8;
+}
+.hero-header p{
+    font-size: 1.6rem;
+    color: #e5e7eb;  
+    margin-bottom: .7rem;
+}
+button{
+    padding: 5px 25px;
+    background-color: #3882f6;
+    font-size: 1.5rem;
+    color: #f9faf8;
+    border: none;
+    border-radius: .4rem;
+}
+main section:first-child{
+    text-align: center;
+    width: 1400px;
+    margin: 3rem auto;
+}
+.container figure img{
+    width: 320px;
+    border: 2px solid #1f2937;
+}
+figcaption{
+    max-width: 320px;
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #1f2937;
+}
+section .container{
+    gap: 12px;
+    justify-content: space-between;
+}
+section h2{
+    font-size: 3rem;
+    color: #1f2937;
+    margin-bottom: 3rem;
+}
+main section:nth-child(2){
+    background-color: #e5e7eb;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main section:nth-child(2) p{
+    font-size: 3rem;
+    color: #1f2937;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+main section:nth-child(2) strong{
+    font-size: 1.7rem;
+    margin-left: 80%;
+    color: #1f2937;
+}
+main section:last-child{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1rem;
+}
+.left-side-call{
+    padding: 60px 40px;
+}
+.left-side-call h3{
+    color: #f9faf8; 
+    font-size: 1.5rem;
+}
+.left-side-call p{
+    font-size: 1.2rem;
+    color: #e5e7eb;
+}
+.call button{
+    border: 2px solid #f9faf8;
+}
+footer{
+    height: 6rem;
+    margin-top: 6rem;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    font-size: 1.5rem;
+}
+
+
